@@ -1,0 +1,92 @@
+body{
+	text-transform: uppercase;
+	background: url(../image/duck.jpg) ;
+	background-repeat: repeat;
+	min-height: 100px;
+	background-size: 30%;
+	font-family: Corbel;
+}
+.box{
+	width:250px;
+	height:250px;
+	background:#d9d9d9;
+	display: inline-block;
+	margin-left: 100px;
+	margin-top: 20px;
+	padding: 15px 15px 145px;
+	border: 1px solid black;
+}
+.content{
+	margin-left: 40px;
+}
+img{
+	border: 2px solid #d9d9d9;
+}
+button.beli{
+	width: 100%;
+	height: 15%;
+	cursor: pointer;
+	background-color: #373737;
+	color: white;
+}
+button.menu{
+	width: 10%;
+	padding: 10px 5px 10px;
+	margin-right: 10px;
+	margin-left: 50px;
+	background-color: #373737;
+	color: white;
+	cursor: pointer;
+}
+p{
+	font-weight: bold;
+}
+button:hover{
+	background-color: #737373;
+}
+img:hover{
+	opacity: 0.6; 
+}
+#popup {
+width: 100%;
+height: 100%;
+position: fixed;
+background: rgba(0,0,0,.7);
+top: 0;
+left: 0;
+z-index: 9999;
+visibility: hidden;
+font-size: 15px;
+}
+
+.window {
+width: 400px;
+height: 300px;
+background: #fff;
+border-radius: 10px;
+position: relative;
+padding: 10px;
+box-shadow: 0 0 5px rgba(0,0,0,.4);
+text-align: center;
+margin: 15% auto;
+text-align: justify;
+}
+
+.close-button {
+width: 20px;
+height: 20px;
+background: #000;
+border-radius: 50%;
+border: 3px solid #fff;
+display: block;
+text-align: center;
+color: #fff;
+text-decoration: none;
+position: absolute;
+top: -10px;
+right: -10px;
+}
+
+#popup:target {
+visibility: visible;
+}

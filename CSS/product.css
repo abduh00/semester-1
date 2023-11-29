@@ -1,0 +1,51 @@
+body{
+	background-color: #f2f2f2;
+	background: url(../image/duck.jpg) ;
+	background-repeat: repeat;
+	min-height: 100px;
+	background-size: 30%;
+}
+.box{
+	margin-left: 100px;
+	margin-top: 60px;
+}
+.box1{
+	width:250px;
+	height:500px;
+	background:white;
+	display: inline-block;
+	margin-left: 10px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: #f1f1f1;
+	margin-left: 100px;
+}
+.box1:hover{
+	background-color: #d9d9d9;
+}
+img{
+	margin-left: 25px;
+	margin-top: 70px;
+
+}
+p{
+	background-color: #373737;
+	font-family: Corbel;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	border: 1px solid black;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding:4px 2px 4px;
+	border-radius:10px;
+}
+h5{
+	font-size: 15px;
+	color: black;
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
+}
